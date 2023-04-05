@@ -39,6 +39,10 @@ body{
     text-align: center;
 }
 
+.btn-submit{
+    background-color: #8faadc;
+}
+
 /*// Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {  }
 

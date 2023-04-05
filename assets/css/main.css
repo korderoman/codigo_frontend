@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.card{
+    border: none;
+}
+
+/*Clases asociadas al login*/
+.login__card{
+    height: 100vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.login__jumbotron{
+    display: none;
+}
+.login__card-jumbotron{
+    width: 100%;
+    min-height: 920px;
+    overflow-y: hidden;
+}
+.login__card-body{
+    background-color: #4472c4;
+    color: white;
+    border-radius: 10%;
+}
+
+
+
+.login__card-logo{
+    width: 40%;
+}
+.logo__content{
+    text-align: center;
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {  }
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    .login__card{
+        padding-top: 10px;
+        height: 100vh;
+    }
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    .login__jumbotron{
+        display: flex;
+    }
+    .login__card{
+        display: flex;
+        flex-direction: row;
+
+    }
+    .login__body{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/*// X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {  }
+
+/*// XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {  }
